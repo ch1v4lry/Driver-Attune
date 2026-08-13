@@ -1,1 +1,24 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Generated platform folders can be recreated with flutter create .
+android/.gradle/
+ios/Pods/
+ios/.symlinks/
+
+# App Store Connect API keys. Never commit these: they grant account access.
+*.p8
+AuthKey_*.p8
