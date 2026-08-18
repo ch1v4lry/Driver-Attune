@@ -1,6 +1,6 @@
 # Privacy Policy for Driver Focus
 
-**Last updated:** 30 July 2026
+**Last updated:** 18 August 2026
 
 ## Summary
 
@@ -38,6 +38,40 @@ transmitted. Location runs only while Driving mode is on and the app is in the
 foreground. You can reduce the accuracy or turn location off entirely in the
 app's Settings; with it off, the app falls back to the accelerometer.
 
+## Face data
+
+Driver Focus does not identify you, authenticate you, create a faceprint or
+biometric template, or compare your face with other faces. To provide real-time
+attention and drowsiness reminders, it temporarily processes front-camera
+frames and face-detection results such as the face location, contours and
+landmarks, head orientation, eye-open probabilities, mouth opening, and image
+visibility and quality. This information is used only to estimate conditions
+such as looking away, prolonged eye closure, yawning, or an obstructed camera.
+
+Camera frames and face-detection results are held in memory only for the time
+needed to analyse the current frame and are then discarded. They are not used
+for advertising, profiling, identification, authentication, or model training.
+They are not sent to the developer, uploaded, or shared with any third party.
+Google's ML Kit performs face detection on the device and does not receive the
+camera images or face-detection results. Its separate collection of limited
+technical SDK diagnostics and usage metrics is explained under "Third-party
+components."
+
+The optional **Save drowsiness photos** setting is off by default. If you turn
+it on, Driver Focus stores a still image from a frame in which drowsiness was
+detected so that you can review what the app detected. These photos are stored
+only in Driver Focus's private application-support directory on your phone,
+outside the camera roll and system photo picker, and are excluded from device
+backups. They are never uploaded or shared. You can delete one photo or all
+photos from the Records tab. Unless you delete them, they remain until you
+delete the app. If you turn on **Delete old photos automatically**, the app
+keeps the newest 50 photos and removes older photos when a new photo is saved;
+turning on this setting does not by itself remove photos already stored.
+
+Driving records contain only aggregate durations and event counts. They do not
+contain camera images, face landmarks, face geometry, face-detection results,
+faceprints, or biometric identifiers.
+
 ## What is stored on your device
 
 Two optional features can be controlled independently in Settings. Driving
@@ -62,10 +96,12 @@ reliable observation, attentive time, or distracted time.
 
 **Drowsiness photos.** If you opt in, the app saves a still image of you at the
 moment drowsiness is detected, so you can see what it caught. These are
-written to the app's own private storage, not your camera roll, so other apps 
-and the system photo picker cannot see them. They are never uploaded. You can 
+written to the app's own private storage, not your camera roll, so other apps
+and the system photo picker cannot see them. They are never uploaded. You can
 view them, delete any of them individually, or delete them all, from the Records
-tab, and you can switch on automatic deletion of older ones.
+tab. If automatic deletion is enabled, the newest 50 are kept and older photos
+are removed as new photos are saved. See "Face data" above for complete storage,
+retention, and deletion details.
 
 Both are removed completely when you delete the app.
 
