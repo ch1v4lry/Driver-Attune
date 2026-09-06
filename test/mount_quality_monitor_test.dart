@@ -1,5 +1,5 @@
-import 'package:driver_focus/features/distraction_detection/face_observation.dart';
-import 'package:driver_focus/features/mount_quality/mount_quality_monitor.dart';
+import 'package:driver_attune/features/distraction_detection/face_observation.dart';
+import 'package:driver_attune/features/mount_quality/mount_quality_monitor.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

@@ -18,7 +18,7 @@ class VehicleActivity {
 /// while the setting is enabled and the app is in the foreground.
 class VehicleActivityService {
   static const MethodChannel _channel =
-      MethodChannel('driver_focus/vehicle_activity');
+      MethodChannel('driver_attune/vehicle_activity');
 
   void Function(VehicleActivity activity)? _onActivity;
   bool _running = false;

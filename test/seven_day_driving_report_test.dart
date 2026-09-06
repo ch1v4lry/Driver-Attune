@@ -1,5 +1,5 @@
-import 'package:driver_focus/features/driving_record/driving_session_summary.dart';
-import 'package:driver_focus/features/driving_record/seven_day_driving_report.dart';
+import 'package:driver_attune/features/driving_record/driving_session_summary.dart';
+import 'package:driver_attune/features/driving_record/seven_day_driving_report.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

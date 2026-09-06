@@ -1,7 +1,7 @@
-import 'package:driver_focus/features/driving_record/driving_record.dart';
-import 'package:driver_focus/features/driving_record/driving_session_summary.dart';
-import 'package:driver_focus/features/evidence/drowsiness_evidence_store.dart';
-import 'package:driver_focus/features/records/records_screen.dart';
+import 'package:driver_attune/features/driving_record/driving_record.dart';
+import 'package:driver_attune/features/driving_record/driving_session_summary.dart';
+import 'package:driver_attune/features/evidence/drowsiness_evidence_store.dart';
+import 'package:driver_attune/features/records/records_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

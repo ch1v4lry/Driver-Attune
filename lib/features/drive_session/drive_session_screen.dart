@@ -66,7 +66,7 @@ enum _ChangedDriveSetting {
 class _DriveSessionScreenState extends State<DriveSessionScreen>
     with WidgetsBindingObserver {
   static const MethodChannel _displayRotationChannel =
-      MethodChannel('driver_focus/display_rotation');
+      MethodChannel('driver_attune/display_rotation');
 
   late final DriveSessionController _controller;
   late final SoundAlertService _alertService;
@@ -725,7 +725,7 @@ class _DriveSessionScreenState extends State<DriveSessionScreen>
       appBar: isLandscape
           ? null
           : AppBar(
-              title: const Text('Driver Focus'),
+              title: const Text('Driver Attune'),
               centerTitle: false,
               actions: [
                 IconButton(

@@ -1,6 +1,6 @@
-# Driver Focus
+# Driver Attune
 
-Driver Focus is a Flutter prototype that watches for distracted and drowsy
+Driver Attune is a Flutter prototype that watches for distracted and drowsy
 driving. It uses the phone's front camera, its accelerometer, and its GPS speed.
 
 Camera images, detection results, location, sensor readings and saved records all
@@ -114,7 +114,7 @@ Motion-gated detection doesn't fire until the car moves, so testing it at a desk
 needs a flag:
 
 ```bash
-flutter run --release --dart-define=DRIVER_FOCUS_SIMULATE_MOVING=true
+flutter run --release --dart-define=DRIVER_ATTUNE_SIMULATE_MOVING=true
 ```
 
 It treats the vehicle as moving for the current run. Off by default, and it must

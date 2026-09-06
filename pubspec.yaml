@@ -1,4 +1,4 @@
-name: driver_focus
+name: driver_attune
 description: A Flutter prototype for detecting driver distraction with camera and device signals.
 publish_to: "none"
 version: 1.0.0+2

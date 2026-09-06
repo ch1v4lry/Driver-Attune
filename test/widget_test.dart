@@ -1,5 +1,5 @@
-import 'package:driver_focus/app.dart';
-import 'package:driver_focus/dev_tools.dart';
+import 'package:driver_attune/app.dart';
+import 'package:driver_attune/dev_tools.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -23,13 +23,13 @@ void main() {
     tester.view.devicePixelRatio = 3.0;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
-    await tester.pumpWidget(const DriverFocusApp());
+    await tester.pumpWidget(const DriverAttuneApp());
   }
 
   testWidgets('shows drive session prototype controls', (tester) async {
     await pumpApp(tester);
 
-    expect(find.text('Driver Focus'), findsOneWidget);
+    expect(find.text('Driver Attune'), findsOneWidget);
     expect(find.text('Unknown'), findsOneWidget);
     expect(find.text('Driving mode'), findsOneWidget);
     expect(find.text('Records'), findsOneWidget);
@@ -56,7 +56,7 @@ void main() {
   testWidgets('uses the drive session controls in landscape', (tester) async {
     await pumpApp(tester, physicalSize: const Size(2532, 1170));
 
-    expect(find.text('Driver Focus'), findsNothing);
+    expect(find.text('Driver Attune'), findsNothing);
     expect(find.text('Driving mode'), findsOneWidget);
     expect(find.text('Calibrate (look at the road)'), findsOneWidget);
     expect(find.byType(NavigationRail), findsOneWidget);

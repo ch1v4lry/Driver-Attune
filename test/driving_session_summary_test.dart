@@ -1,8 +1,8 @@
-import 'package:driver_focus/features/distraction_detection/driver_state.dart';
-import 'package:driver_focus/features/driving_record/driving_record.dart';
-import 'package:driver_focus/features/driving_record/driving_record_store.dart';
-import 'package:driver_focus/features/driving_record/driving_session_summary.dart';
-import 'package:driver_focus/features/mount_quality/mount_quality_monitor.dart';
+import 'package:driver_attune/features/distraction_detection/driver_state.dart';
+import 'package:driver_attune/features/driving_record/driving_record.dart';
+import 'package:driver_attune/features/driving_record/driving_record_store.dart';
+import 'package:driver_attune/features/driving_record/driving_session_summary.dart';
+import 'package:driver_attune/features/mount_quality/mount_quality_monitor.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

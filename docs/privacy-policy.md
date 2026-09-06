@@ -1,15 +1,15 @@
-# Privacy Policy for Driver Focus
+# Privacy Policy for Driver Attune
 
 **Last updated:** 18 August 2026
 
 ## Summary
 
-Driver Focus has no account, advertising, tracking, or developer-operated
+Driver Attune has no account, advertising, tracking, or developer-operated
 server. Camera images, face-detection results, location, motion readings,
 driving records, and drowsiness photos are processed or stored only on your
 phone as described below.
 
-Driver Focus uses Google's ML Kit for face detection. Although images and
+Driver Attune uses Google's ML Kit for face detection. Although images and
 detection results stay on your phone, ML Kit sends Google limited technical
 information about the device, app, API use, performance, and errors for
 diagnostics and usage analytics. ML Kit may also contact Google for items such
@@ -18,7 +18,7 @@ as bug fixes, updated models, and hardware-compatibility information. See
 
 ## What the app accesses, and why
 
-**Camera.** Driver Focus watches your face through the front camera to work out
+**Camera.** Driver Attune watches your face through the front camera to work out
 where you are looking and whether your eyes are closing. Camera frames are
 analysed on the device, in memory, and then discarded. They are not recorded,
 not uploaded, and not saved, except by the one optional feature described
@@ -40,7 +40,7 @@ app's Settings; with it off, the app falls back to the accelerometer.
 
 ## Face data
 
-Driver Focus does not identify you, authenticate you, create a faceprint or
+Driver Attune does not identify you, authenticate you, create a faceprint or
 biometric template, or compare your face with other faces. To provide real-time
 attention and drowsiness reminders, it temporarily processes front-camera
 frames and face-detection results such as the face location, contours and
@@ -58,9 +58,9 @@ technical SDK diagnostics and usage metrics is explained under "Third-party
 components."
 
 The optional **Save drowsiness photos** setting is off by default. If you turn
-it on, Driver Focus stores a still image from a frame in which drowsiness was
+it on, Driver Attune stores a still image from a frame in which drowsiness was
 detected so that you can review what the app detected. These photos are stored
-only in Driver Focus's private application-support directory on your phone,
+only in Driver Attune's private application-support directory on your phone,
 outside the camera roll and system photo picker, and are excluded from device
 backups. They are never uploaded or shared. You can delete one photo or all
 photos from the Records tab. Unless you delete them, they remain until you
@@ -88,7 +88,7 @@ is automatically removed. This does not change the separately stored all-time
 totals. You can erase the complete driving record at any time from the
 Summaries tab.
 
-If you leave Driver Focus while Driving mode is active and the vehicle appeared
+If you leave Driver Attune while Driving mode is active and the vehicle appeared
 to be moving, the time until you return is saved as possible phone-use time.
 The camera, location, and activity monitoring are stopped while the app is in
 the background, so this inferred interval is not counted as confirmed movement,
@@ -126,7 +126,7 @@ compatibility information. Google describes this processing in its
 [Apple App Store data disclosure guide](https://developers.google.com/ml-kit/ios-data-disclosure).
 
 Location and sensor readings come from the operating system's own services and
-are not included in the information sent by Driver Focus to Google.
+are not included in the information sent by Driver Attune to Google.
 
 ## Your control
 
@@ -136,13 +136,13 @@ location makes the app fall back to motion sensing; and withdrawing Motion &
 Fitness access disables automatic Driving mode and may limit motion-based
 detection. Deleting the app removes everything it has stored.
 
-The Driver Focus developer does not receive or keep server-side user data to
+The Driver Attune developer does not receive or keep server-side user data to
 access, correct, or delete. Google's handling of ML Kit diagnostics and usage
 metrics is governed by Google's privacy policy.
 
 ## Children
 
-Driver Focus is intended for licensed drivers and is not directed at children.
+Driver Attune is intended for licensed drivers and is not directed at children.
 
 ## Changes
 

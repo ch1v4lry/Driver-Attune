@@ -9,14 +9,14 @@
 /// driving, which means release builds on a real phone, where kDebugMode is
 /// already false. Turn them on with:
 ///
-/// flutter run --release --dart-define=DRIVER_FOCUS_DEV_TOOLS=true
-const bool kShowDevTools = bool.fromEnvironment('DRIVER_FOCUS_DEV_TOOLS');
+/// flutter run --release --dart-define=DRIVER_ATTUNE_DEV_TOOLS=true
+const bool kShowDevTools = bool.fromEnvironment('DRIVER_ATTUNE_DEV_TOOLS');
 
 /// Starts the app with vehicle movement simulated.
 ///
 /// Lets the full detection and driving-record pipeline be tested while
 /// stationary. Off by default and must never be enabled for an App Store build.
 ///
-/// flutter run --release --dart-define=DRIVER_FOCUS_SIMULATE_MOVING=true
+/// flutter run --release --dart-define=DRIVER_ATTUNE_SIMULATE_MOVING=true
 const bool kSimulateMoving =
-    bool.fromEnvironment('DRIVER_FOCUS_SIMULATE_MOVING');
+    bool.fromEnvironment('DRIVER_ATTUNE_SIMULATE_MOVING');

@@ -1,7 +1,7 @@
-import 'package:driver_focus/features/distraction_detection/glance_sensitivity.dart';
-import 'package:driver_focus/features/motion/automatic_driving_mode_store.dart';
-import 'package:driver_focus/features/motion/gps_accuracy.dart';
-import 'package:driver_focus/features/settings/drive_settings_store.dart';
+import 'package:driver_attune/features/distraction_detection/glance_sensitivity.dart';
+import 'package:driver_attune/features/motion/automatic_driving_mode_store.dart';
+import 'package:driver_attune/features/motion/gps_accuracy.dart';
+import 'package:driver_attune/features/settings/drive_settings_store.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

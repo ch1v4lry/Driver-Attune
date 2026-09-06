@@ -1,10 +1,10 @@
-import 'package:driver_focus/features/alerts/alert_service.dart';
-import 'package:driver_focus/features/distraction_detection/distraction_analyzer.dart';
-import 'package:driver_focus/features/distraction_detection/driver_state.dart';
-import 'package:driver_focus/features/distraction_detection/drowsiness_tracker.dart';
-import 'package:driver_focus/features/distraction_detection/face_observation.dart';
-import 'package:driver_focus/features/distraction_detection/glance_sensitivity.dart';
-import 'package:driver_focus/features/drive_session/drive_session_controller.dart';
+import 'package:driver_attune/features/alerts/alert_service.dart';
+import 'package:driver_attune/features/distraction_detection/distraction_analyzer.dart';
+import 'package:driver_attune/features/distraction_detection/driver_state.dart';
+import 'package:driver_attune/features/distraction_detection/drowsiness_tracker.dart';
+import 'package:driver_attune/features/distraction_detection/face_observation.dart';
+import 'package:driver_attune/features/distraction_detection/glance_sensitivity.dart';
+import 'package:driver_attune/features/drive_session/drive_session_controller.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 class _RecordingAlertService implements AlertService {

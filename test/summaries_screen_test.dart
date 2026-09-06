@@ -1,6 +1,6 @@
-import 'package:driver_focus/features/driving_record/driving_record.dart';
-import 'package:driver_focus/features/driving_record/driving_session_summary.dart';
-import 'package:driver_focus/features/summaries/summaries_screen.dart';
+import 'package:driver_attune/features/driving_record/driving_record.dart';
+import 'package:driver_attune/features/driving_record/driving_session_summary.dart';
+import 'package:driver_attune/features/summaries/summaries_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

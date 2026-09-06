@@ -1,4 +1,4 @@
-import 'package:driver_focus/features/motion/vehicle_motion_detector.dart';
+import 'package:driver_attune/features/motion/vehicle_motion_detector.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

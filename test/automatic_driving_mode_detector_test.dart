@@ -1,5 +1,5 @@
-import 'package:driver_focus/features/motion/automatic_driving_mode_detector.dart';
-import 'package:driver_focus/features/motion/vehicle_activity_service.dart';
+import 'package:driver_attune/features/motion/automatic_driving_mode_detector.dart';
+import 'package:driver_attune/features/motion/vehicle_activity_service.dart';
 import 'package:fake_async/fake_async.dart';
 import 'package:flutter_test/flutter_test.dart';
 

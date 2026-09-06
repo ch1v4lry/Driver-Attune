@@ -1,5 +1,5 @@
-import 'package:driver_focus/features/alerts/sound_alert_service.dart';
-import 'package:driver_focus/features/distraction_detection/driver_state.dart';
+import 'package:driver_attune/features/alerts/sound_alert_service.dart';
+import 'package:driver_attune/features/distraction_detection/driver_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

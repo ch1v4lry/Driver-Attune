@@ -31,7 +31,7 @@ class MainActivity : FlutterActivity(), DisplayManager.DisplayListener {
         rotationChannel =
             MethodChannel(
                 flutterEngine.dartExecutor.binaryMessenger,
-                "driver_focus/display_rotation",
+                "driver_attune/display_rotation",
             )
         rotationChannel.setMethodCallHandler { call, result ->
             if (call.method == "getOrientation") {
@@ -43,7 +43,7 @@ class MainActivity : FlutterActivity(), DisplayManager.DisplayListener {
         vehicleActivityChannel =
             MethodChannel(
                 flutterEngine.dartExecutor.binaryMessenger,
-                "driver_focus/vehicle_activity",
+                "driver_attune/vehicle_activity",
             )
         vehicleActivityChannel.setMethodCallHandler { call, result ->
             when (call.method) {

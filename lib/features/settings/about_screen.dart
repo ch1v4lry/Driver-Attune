@@ -64,7 +64,7 @@ class AboutScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 10),
                   Text(
-                    'Driver Focus cannot detect every instance of drowsiness or '
+                    'Driver Attune cannot detect every instance of drowsiness or '
                     'distraction, and it is not a substitute for being rested '
                     'and attentive. Never rely on it to keep you awake. If you '
                     'feel tired, stop and rest.\n\n'
@@ -80,7 +80,7 @@ class AboutScreen extends StatelessWidget {
           ),
           heading('Privacy'),
           para(
-            'Driver Focus has no account, advertising, tracking, or '
+            'Driver Attune has no account, advertising, tracking, or '
             'developer-operated server. Camera images, face-detection results, '
             'location, motion readings, driving records, and drowsiness photos '
             'are processed or stored only on this phone. Google’s ML Kit sends '
@@ -166,7 +166,7 @@ class AboutScreen extends StatelessWidget {
             'back to motion sensing; and withdrawing Motion & Fitness access '
             'disables automatic Driving mode and may limit motion-based '
             'detection. Deleting the app removes everything it has stored. The '
-            'Driver Focus developer does not receive or keep server-side user '
+            'Driver Attune developer does not receive or keep server-side user '
             'data to request or delete. Google’s handling of ML Kit diagnostics '
             'and usage metrics is governed by Google’s privacy policy.',
           ),

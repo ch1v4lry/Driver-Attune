@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Driver Focus</string>
+	<string>Driver Attune</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Driver Focus</string>
+	<string>Driver Attune</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -29,13 +29,13 @@
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>NSCameraUsageDescription</key>
-	<string>Driver Focus uses the camera to monitor whether the driver is looking ahead.</string>
+	<string>Driver Attune uses the camera to monitor whether the driver is looking ahead.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Driver Focus uses your speed to tell whether the car is moving, so it only warns about looking away while you are actually driving. Your location is never stored or sent anywhere.</string>
+	<string>Driver Attune uses your speed to tell whether the car is moving, so it only warns about looking away while you are actually driving. Your location is never stored or sent anywhere.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Driver Focus uses your speed only while the app is open and Driving mode is active to determine whether the vehicle is moving. Your location is never stored or sent anywhere.</string>
+	<string>Driver Attune uses your speed only while the app is open and Driving mode is active to determine whether the vehicle is moving. Your location is never stored or sent anywhere.</string>
 	<key>NSMotionUsageDescription</key>
-	<string>Driver Focus uses motion sensors to detect a shaky phone mount and automatically enable Driving mode while traveling by car. You can disable automatic Driving mode in Settings.</string>
+	<string>Driver Attune uses motion sensors to detect a shaky phone mount and automatically enable Driving mode while traveling by car. You can disable automatic Driving mode in Settings.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

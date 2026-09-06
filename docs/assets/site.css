@@ -82,7 +82,7 @@ a:hover {
   /* The app's own icon, with the corners rounded here because the web applies
      no mask of its own. The url is resolved against this stylesheet, so every
      page picks it up whatever depth it sits at. */
-  background: url("driver-focus-mark.png") center / contain no-repeat;
+  background: url("driver-attune-mark.png") center / contain no-repeat;
 }
 
 .nav-links {

@@ -1,6 +1,6 @@
-import 'package:driver_focus/features/distraction_detection/distraction_analyzer.dart';
-import 'package:driver_focus/features/distraction_detection/driver_state.dart';
-import 'package:driver_focus/features/distraction_detection/face_observation.dart';
+import 'package:driver_attune/features/distraction_detection/distraction_analyzer.dart';
+import 'package:driver_attune/features/distraction_detection/driver_state.dart';
+import 'package:driver_attune/features/distraction_detection/face_observation.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
