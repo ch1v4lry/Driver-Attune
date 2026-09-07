@@ -33,7 +33,7 @@ platform configuration.
 If Git reports dubious ownership of the repository folder, run:
 
 ```powershell
-git config --global --add safe.directory C:/path/to/Driver-Focus
+git config --global --add safe.directory C:/path/to/Driver-Attune
 ```
 
 Only do this for folders you trust.

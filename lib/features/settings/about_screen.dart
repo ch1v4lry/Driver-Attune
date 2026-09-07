@@ -11,7 +11,7 @@ class AboutScreen extends StatelessWidget {
   /// The full text is shown below too, so a broken link cannot leave the app
   /// without a policy.
   static const String privacyPolicyUrl =
-      'https://ch1v4lry.github.io/Driver-Focus/privacy/';
+      'https://ch1v4lry.github.io/Driver-Attune/privacy/';
 
   @override
   Widget build(BuildContext context) {

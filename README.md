@@ -17,8 +17,8 @@ road time.
 The App Store support and privacy pages live under [`docs/`](docs/) and are
 served from this repository by GitHub Pages:
 
-- `https://ch1v4lry.github.io/Driver-Focus/support/`
-- `https://ch1v4lry.github.io/Driver-Focus/privacy/`
+- `https://ch1v4lry.github.io/Driver-Attune/support/`
+- `https://ch1v4lry.github.io/Driver-Attune/privacy/`
 
 ## What it detects
 
